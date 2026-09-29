@@ -4,7 +4,9 @@
 
 EasyPDF is a remote [Model Context Protocol](https://modelcontextprotocol.io) server that lets ChatGPT, Claude, Cursor, VS Code and any MCP client edit real PDF files. Ask your assistant to fix a date, an amount, a name or a typo: EasyPDF rewrites the text inside the original PDF, keeps the fonts and the layout, and shows a before/after preview in the chat. It also compresses, merges, splits, converts and translates PDFs.
 
-![EasyPDF in an AI assistant: the invoice is edited in place and a before/after preview is shown](docs/demo.gif)
+https://github.com/user-attachments/assets/7eae0cd7-aea4-478e-b06c-91234c613fa4
+
+*21-second demo: one request, two edits written into the original invoice (fonts and layout kept), then the download. Also available as a [GIF preview](docs/demo.gif).*
 
 - Website and setup guide: https://www.easypdf.fr/ai-assistants
 - Claude directory listing: https://claude.ai/directory/easypdf
