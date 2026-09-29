@@ -3,7 +3,7 @@
   "name": "io.github.Lorenzino69/easypdf",
   "title": "EasyPDF",
   "description": "Edit PDF text in place, fonts and layout kept. Compress, merge, split, convert and translate PDFs.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://www.easypdf.fr/ai-assistants",
   "repository": {
     "url": "https://github.com/Lorenzino69/easypdf-mcp",
@@ -22,6 +22,10 @@
     {
       "type": "streamable-http",
       "url": "https://www.easypdf.fr/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://www.easypdf.fr/chatgpt/mcp"
     }
   ]
 }
