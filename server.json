@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Lorenzino69/easypdf",
+  "title": "EasyPDF",
+  "description": "Edit PDF text in place, fonts and layout kept. Compress, merge, split, convert and translate PDFs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.easypdf.fr/ai-assistants",
+  "repository": {
+    "url": "https://github.com/Lorenzino69/easypdf-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.easypdf.fr/assets/icon-easypdf.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.easypdf.fr/mcp"
+    }
+  ]
+}
