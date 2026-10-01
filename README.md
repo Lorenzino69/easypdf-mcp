@@ -29,8 +29,17 @@ Open the listing at https://claude.ai/directory/easypdf, click **Connect** and c
 
 ### Claude Code
 
+The [EasyPDF plugin](https://github.com/Lorenzino69/easypdf-claude-plugin) adds the server plus skills that upload your local files and save the results next to them:
+
 ```bash
-claude mcp add --transport http easypdf https://www.easypdf.fr/mcp
+claude plugin marketplace add Lorenzino69/easypdf-claude-plugin
+claude plugin install easypdf@easypdf
+```
+
+Or the server alone. Keep the trailing slash: without it, Claude Code rejects the OAuth resource.
+
+```bash
+claude mcp add --transport http easypdf https://www.easypdf.fr/mcp/
 ```
 
 ### Cursor
