@@ -1,6 +1,10 @@
 # EasyPDF MCP server
 
+[![MCP Badge](https://lobehub.com/badge/mcp/user-attachments-easypdf-mcp)](https://lobehub.com/mcp/user-attachments-easypdf-mcp)
+
 **Your AI says what to change. EasyPDF writes it into the PDF.**
+
+Maintained by [Lorenzino69](https://github.com/Lorenzino69), author of [EasyPDF](https://www.easypdf.fr).
 
 EasyPDF is a remote [Model Context Protocol](https://modelcontextprotocol.io) server that lets ChatGPT, Claude, Cursor, VS Code and any MCP client edit real PDF files. Ask your assistant to fix a date, an amount, a name or a typo: EasyPDF rewrites the text inside the original PDF, keeps the fonts and the layout, and shows a before/after preview in the chat. It also compresses, merges, splits, converts and translates PDFs.
 
