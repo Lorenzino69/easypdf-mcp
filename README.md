@@ -14,6 +14,7 @@ https://github.com/user-attachments/assets/7eae0cd7-aea4-478e-b06c-91234c613fa4
 
 - Website and setup guide: https://www.easypdf.fr/ai-assistants
 - Claude directory listing: https://claude.ai/directory/easypdf
+- ChatGPT app directory listing: https://chatgpt.com/plugins/plugin_asdk_app_6aa964ee34848191b5db7ae9bd2ca5b5
 - No API key, nothing to install: it is a hosted server.
 
 ## Endpoints
@@ -72,7 +73,9 @@ claude mcp add --transport http easypdf https://www.easypdf.fr/mcp/
 
 ### ChatGPT
 
-The EasyPDF app is under review for the ChatGPT app directory. Until then, add it in developer mode on chatgpt.com:
+EasyPDF is published in the ChatGPT app directory: open https://chatgpt.com/plugins/plugin_asdk_app_6aa964ee34848191b5db7ae9bd2ca5b5 and add the app. Then, in a chat, attach a PDF and pick EasyPDF from the + menu.
+
+You can also add the server yourself in developer mode:
 
 1. In Settings, open Apps, then Advanced settings, and turn on developer mode.
 2. Create an app named EasyPDF with the URL `https://www.easypdf.fr/chatgpt/mcp` and no authentication.
@@ -103,6 +106,16 @@ The EasyPDF app is under review for the ChatGPT app directory. Until then, add i
 The ChatGPT endpoint exposes the tools that work on ChatGPT attachments: `edit_pdf_text`, `compress_pdf`, `merge_pdfs`, `split_pdf`, `extract_pages`, `rotate_pdf`, `add_page_numbers`, `protect_pdf` and `unlock_pdf`.
 
 Every tool returns a download link valid for one hour.
+
+## Prompts
+
+| Prompt | What it does |
+|---|---|
+| `fix_pdf_text` | Change dates, amounts, names or typos inside an existing PDF, keeping its fonts and layout. |
+| `compress_pdf_under_limit` | Shrink a PDF until it fits an upload limit (job portal, university, visa form, email). |
+| `translate_pdf_document` | Translate a PDF into another language and get a PDF back with the layout kept. |
+
+In Claude Code they appear as `/mcp__easypdf__fix_pdf_text` and so on. The ChatGPT endpoint offers `fix_pdf_text` and `compress_pdf_under_limit`.
 
 ## Example prompts
 
